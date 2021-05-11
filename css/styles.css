@@ -1,0 +1,295 @@
+:root {
+    --primary-text-color: #757575;
+    --text-item: #212121;
+    --background-color: #ffffff;
+    --second-color-link: #2196F3;
+    --half-logo: #000000;
+    --background-hero: #2F303A;
+    --btn-hover: #188CE8;
+    --background-our-team: #F5F4FA;
+}
+
+.list {
+    list-style: none;
+}
+
+/*=============COMPONENT===============*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/*====title=====*/
+/*h2 studia*/
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--text-item);
+}
+
+/*h2 portfolio*/
+.cards-product-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--text-item)
+}
+
+/*h3 our-features*/
+.features-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--text-item);
+}
+
+/*h3 our team*/
+.card-team .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--text-item);
+}
+
+/*====END title=====*/
+
+/*=============END COMPONENT===============*/
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+/*========== HEDER===================*/
+
+/*=====логотип=====*/
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--second-color-link);
+    text-decoration: none;
+}
+
+.logo-heder {
+    color: var(--half-logo);
+}
+
+.logo-footer {
+    color: var(--background-color);
+}
+
+/*=====end логотип=====*/
+/*====панель навигации====*/
+
+.site-nav .link {
+    color: var(--text-item);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+    color: var(--second-color-link);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--second-color-link);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--second-color-link);
+}
+
+.site-nav-link {
+    border: 50px;
+}
+
+
+/*====END панель навигации====*/
+
+/*========== END HEDER===================*/
+
+/*====MAIN BLOCK====*/
+
+/*==hero==*/
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-color);
+    background: #2F303A
+}
+
+/*==button==*/
+.button {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--background-color);
+    background: var(--second-color-link);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: var(--btn-hover);
+}
+
+/*==END button==*/
+/*==END hero==*/
+
+/*======section-feature=====*/
+.features-list {
+    list-style-type: none;
+}
+
+.features-text {
+    line-height: 1.71;
+}
+
+/*======end section-feature=====*/
+/*====section what are we doing====*/
+.work-img {
+    list-style-type: none;
+}
+
+/*====end section what are we doing====*/
+
+/*=====section our team=====*/
+.card-team {
+    list-style-type: none;
+}
+
+.card-team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/*=====end section our team=====*/
+
+/*=======footer========*/
+.footer {
+    background: #2F303A;
+}
+
+.address-list {
+    list-style-type: none;
+}
+
+.link-google {
+    color: var(--background-color);
+    text-decoration: none;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+.link-google:hover,
+.link-google:focus {
+    color: var(--second-color-link);
+}
+
+.link-cont {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+.link-cont:hover,
+.link-cont:focus {
+    color: var(--second-color-link);
+}
+
+/*=======end footer========*/
+
+/*=============         ============*/
+/*=============portfolio============*/
+.btn {
+    list-style-type: none;
+}
+
+.btn button {
+    background: var(--background-our-team);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn button:hover,
+.btn button:focus {
+    color: var(--background-color);
+    background-color: var(--second-color-link);
+}
+
+.cards-product {
+    list-style-type: none;
+}
+
+.cards-product-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color)
+}
+
+/*=============   END    ============*/
+/*=============portfolio============*/
