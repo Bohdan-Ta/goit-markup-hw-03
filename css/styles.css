@@ -108,9 +108,13 @@ body {
     align-items: center;
 }
 
+.nav {
+    margin-left: 93px;
+
+}
+
 .site-nav {
     display: flex;
-    margin-left: 93px;
 }
 
 .site-nav-link:not(:last-child) {
@@ -127,11 +131,15 @@ body {
 }
 
 .site-nav .link {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
     color: var(--text-item);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+
 }
 
 .site-nav .link.current {
@@ -162,17 +170,16 @@ body {
 /*====MAIN BLOCK====*/
 /*==hero==*/
 .hero {
-    width: 1600px;
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background-color: var(--background-hero);
     text-align: center;
-    vertical-align: middle;
 }
 
 .hero h1 {
-    padding-top: 200px;
     margin-bottom: 30px;
-
+    padding: 1px 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -248,12 +255,15 @@ body {
 .features-text {
     line-height: 1.71;
     margin-top: 10px;
-    padding-bottom: 6px;
 }
 
 /*======end section-feature=====*/
-/*====section what are we doing====*/
+/*====section what do we do====*/
 /*h2 studia*/
+.no-top-padding {
+    padding-top: 0;
+}
+
 .section-title-work {
     padding-top: 1px;
     margin-bottom: 50px;
@@ -271,7 +281,7 @@ body {
 
 .work-img {
     list-style-type: none;
-    display: block;
+    width: 370px;
 }
 
 /*====end section what are we doing====*/
@@ -310,18 +320,22 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
+.size-text {
+    min-width: 270px;
+    padding: 30px;
+
+}
+
 .card .title {
-    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .card-team-text {
-    margin-top: 10px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
-
-/*=====end section our team=====*/
+    /*=====end section our team=====*/
 
 /*=======footer========*/
 .footer {
@@ -338,7 +352,7 @@ body {
 }
 
 .address-position {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .address-list {
@@ -382,6 +396,8 @@ body {
 
 /*h2 portfolio*/
 .cards-product-title {
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
@@ -420,14 +436,13 @@ body {
     margin-bottom: 50px;
 }
 
-.cards-product {
-    list-style-type: none;
-}
 
 .cards-product {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    list-style-type: none;
+
 }
 
 .cards-product:nth-child(3n) {
@@ -457,10 +472,6 @@ body {
     font-size: 16px;
     line-height: 1.87;
     color: var(--primary-text-color)
-}
-
-.cards-product-title {
-    padding-bottom: 4px;
 }
 
 .flax-portfolio {
