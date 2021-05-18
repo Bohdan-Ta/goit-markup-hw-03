@@ -298,6 +298,8 @@ body {
 }
 
 .card-team .title {
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -308,13 +310,7 @@ body {
 .card-team {
     list-style-type: none;
     margin-right: 30px;
-}
 
-.card-team:nth-child(4n) {
-    margin-right: 0;
-}
-
-.card {
     width: 270px;
     height: 368px;
     text-align: center;
@@ -323,12 +319,12 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.img-team {
-    margin-bottom: 30px;
+.card-team:nth-child(4n) {
+    margin-right: 0;
 }
 
-.card .title {
-    margin-bottom: 10px;
+.img-team {
+    margin-bottom: 30px;
 }
 
 .card-team-text {
